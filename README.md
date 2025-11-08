@@ -79,16 +79,13 @@ This package follows Semantic Versioning (SemVer):
 
 ## Upcoming
 
-- Pre-1.0 (0.x)
+1.x (minor, non-breaking): continue adding rules, helpers, and docs
   - JSON-driven test generation helper (`gen-fv-tests`)
   - Field-level helpers for struct validation (tags or small DSL)
   - Result metadata (code/field) for UI/form integration
   - Configurable evaluation mode (short-circuit vs exhaustive; defaults unchanged)
   - Message templating/localization (placeholders, i18n)
-
-- Post-1.0
-  - 1.x (minor, non-breaking): continue adding rules, helpers, and docs
-  - 2.0 (major, breaking):
+- 2.0 (major, breaking):
     - Grouping/precedence semantics if they alter evaluation outcomes
     - Context-aware validators if `Validate()` signature changes
 

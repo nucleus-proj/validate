@@ -1,8 +1,8 @@
-// Package fluent_validator provides a small fluent validation helper for
+// Package validate provides a small fluent validation helper for
 // composing multiple validation steps with AND/OR semantics. It evaluates
 // validators left-to-right and short-circuits logically where possible
 // while preserving an explanatory failure message when invalid.
-package fluent_validator
+package validate
 
 // ValidationResult represents the outcome of a validation step.
 type ValidationResult struct {

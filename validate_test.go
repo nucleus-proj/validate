@@ -1,4 +1,4 @@
-package fluent_validator
+package validate
 
 import (
 	"reflect"

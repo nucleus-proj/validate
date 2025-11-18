@@ -85,6 +85,7 @@ This package follows Semantic Versioning (SemVer):
   - Result metadata (code/field) for UI/form integration
   - Configurable evaluation mode (short-circuit vs exhaustive; defaults unchanged)
   - Message templating/localization (placeholders, i18n)
+  - enum validation
 - 2.0 (major, breaking):
     - Grouping/precedence semantics if they alter evaluation outcomes
     - Context-aware validators if `Validate()` signature changes
